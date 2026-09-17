@@ -40,8 +40,7 @@ Si `domodom30/mealie-card` est déjà installé :
 3. Dans **Dépôt**, saisissez :
 
    ```text
-   https://github.com/VOTRE_COMPTE/mealie-card-categories
-   ```
+   https://github.com/slide64/Mealie-card-categories
 
 4. Choisissez la catégorie **Dashboard**.
 5. Cliquez sur **Ajouter**.
