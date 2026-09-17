@@ -1,0 +1,37 @@
+{
+  "name": "mealie-card",
+  "version": "3.0.8-categories.3",
+  "description": "Custom Home Assistant card to display recipes and meals from a Mealie instance",
+  "type": "module",
+  "main": "dist/mealie-card.js",
+  "scripts": {
+    "dev": "rollup -c rollup.config.js -w",
+    "build": "cross-env NODE_ENV=production rollup -c rollup.config.js",
+    "lint": "eslint src",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [
+    "home-assistant",
+    "lovelace",
+    "mealie",
+    "custom-card"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^29.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^16.0.3",
+    "@rollup/plugin-terser": "^1.0.0",
+    "cross-env": "^10.1.0",
+    "eslint": "^10.8.1",
+    "rollup": "^4.62.4",
+    "rollup-plugin-esbuild": "^6.2.1",
+    "rollup-plugin-serve": "^3.0.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.4.0",
+    "typescript-eslint": "^8.67.0"
+  },
+  "dependencies": {
+    "lit": "^3.3.3"
+  }
+}
